@@ -1,0 +1,140 @@
+* {
+    /*
+        Include in calculul latimii elementului si pading-ul
+    */
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+    background-image: url("background.jpg");
+    background-size: cover;
+
+}
+
+.top-bar {
+    background-color: #ff1b68;   
+    display: inline-block;
+    width: 100%;
+}
+
+.top-bar h1 {
+    color: white;    
+}
+
+h2 {
+    color: lawngreen;
+
+}
+.second p {
+    font-weight: bold;
+    
+}
+
+.second p::first-letter {
+    color: red;
+    
+}
+table{
+    width: 30%;
+}
+
+table td {
+    text-align: center;
+}
+.contact-form {
+    width: 50%;
+
+}
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 20px;
+    margin: 10px 0;
+
+}
+.contact-form .submit-button {
+    width: auto;
+    margin: 0 auto;
+    display: table;
+    color:white;
+    background-color: green;
+    padding: 10px;
+    border: 2px solid black;
+}
+footer {
+    background-color: black;
+    padding: 30px;
+}
+.main-footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.main-footer-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.main-footer-links li a {
+    color: white;
+    text-decoration: none;
+
+}
+.main-footer-links li a:hover {
+    color: green;
+}
+header {
+     width: 100%;
+     background-color: rgb(199, 130, 130);
+     padding: 30px;
+
+}
+.header-links {
+    width: 100%;
+    text-align: right;
+    
+}
+.main-nav-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.main-nav-items li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.main-nav-items li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.main-nav-items li a:hover,
+.main-nav-items li a:active {
+    color: green;
+    border-bottom: 5px solid green;
+}
+.projects a {
+    color: white;
+    background-color: #ff1b68;
+    padding: 5px 10px;
+    border-radius: 10px;
+
+}
+.projects a:hover {
+    color: #ff1b68 !important;
+    background-color: white;
+    border: none;
+}
+.home {
+    text-align: center;
+
+}
+main.home table,
+main.home .contact-form {
+    margin: 0 auto;
+    padding-bottom: 20px;
+
+}
